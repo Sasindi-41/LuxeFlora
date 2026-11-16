@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1047273954299",
+    "project_id": "luxeflora",
+    "storage_bucket": "luxeflora.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047273954299:android:95d4f1f1bdf2e3ab6dc95e",
+        "android_client_info": {
+          "package_name": "lk.sasindi.luxeflora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2a2yWCP0yhYhiRZvg6Pvv8mlrF0jEEn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

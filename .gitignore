@@ -1,0 +1,147 @@
+
+# ==========================================
+# LUXEFLORA — ROOT GITIGNORE
+# Android Mobile App + React Admin Panel
+# ==========================================
+
+
+# ------------------------------------------
+# ENVIRONMENT VARIABLES AND LOCAL SECRETS
+# ------------------------------------------
+
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local configuration
+local.properties
+**/local.properties
+*.local
+
+
+# ------------------------------------------
+# PRIVATE KEYS AND CERTIFICATES
+# ------------------------------------------
+
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+
+keystore.properties
+
+# Firebase Admin SDK private credentials
+*serviceAccount*.json
+*service-account*.json
+*firebase-adminsdk*.json
+
+# Secret directories
+secrets/
+**/secrets/
+
+
+# ------------------------------------------
+# ANDROID / GRADLE
+# ------------------------------------------
+
+.gradle/
+**/.gradle/
+
+build/
+**/build/
+
+captures/
+.externalNativeBuild/
+.cxx/
+
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Android Studio
+.idea/
+**/.idea/
+*.iml
+
+# Keep Gradle wrapper files:
+# gradlew, gradlew.bat, gradle/wrapper/
+
+
+# ------------------------------------------
+# REACT / NODE / VITE
+# ------------------------------------------
+
+node_modules/
+**/node_modules/
+
+dist/
+**/dist/
+
+coverage/
+**/coverage/
+
+.vite/
+**/.vite/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Keep package.json and package-lock.json
+
+
+# ------------------------------------------
+# IDE AND EDITOR FILES
+# ------------------------------------------
+
+.vscode/
+*.swp
+*.swo
+*~
+
+# ------------------------------------------
+# OPERATING SYSTEM FILES
+# ------------------------------------------
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# ------------------------------------------
+# LOGS AND TEMPORARY FILES
+# ------------------------------------------
+
+*.log
+logs/
+**/logs/
+
+tmp/
+temp/
+*.tmp
+*.bak
+
+
+# ------------------------------------------
+# TEST AND GENERATED REPORTS
+# ------------------------------------------
+
+test-results/
+playwright-report/
+.nyc_output/
+
+
+# ------------------------------------------
+# ARCHIVES AND BACKUPS
+# ------------------------------------------
+
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
